@@ -1,0 +1,38 @@
+body {
+	background-color: #ccc;
+	font-size: 30px;
+	box-shadow: 5px 5px 8px 7px #999
+}
+
+.text-warning-blink {
+	animation: blink 1s linear infinite;
+}
+.blink_me {
+  animation: blinker 0.5s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+#top {
+    background-color: #ccc;
+    padding: 10px;
+	border: 10px red solid;
+}
+
+#top h1 {
+	color: red;
+	font-size: 70px;
+	text-align: center;	
+}
+#top p {
+	color: #ff0;
+	font-size: 50px;
+	font-weight: bold;
+	margin: 1px 5px 10px 20px;
+	text-align: center;	
+}
+
